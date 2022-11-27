@@ -2,7 +2,7 @@
   "name": "simplefolio",
   "version": "1.0.1",
   "private": "true",
-  "description": "A clean, beautiful and responsive portfolio template for Developers!",
+  "description": "simplefolio",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
@@ -10,18 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobidev/simplefolio"
+    "url": "git+https://github.com/HeriYantodotDev/my-personal-website.git"
   },
   "keywords": [],
   "author": "Jacobo Martinez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cobidev/simplefolio/issues"
+    "url": "https://github.com/HeriYantodotDev/my-personal-website/issues"
   },
-  "homepage": "https://github.com/cobidev/simplefolio#readme",
+  "homepage": "https://github.com/HeriYantodotDev/my-personal-website#readme",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.0.1",
-    "parcel": "^2.0.1",
+    "@parcel/transformer-sass": "^2.8.0",
+    "parcel": "^2.8.0",
     "prettier": "^2.4.1"
   },
   "dependencies": {
@@ -30,5 +30,9 @@
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
     "vanilla-tilt": "^1.7.2"
+  },
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
   }
 }
