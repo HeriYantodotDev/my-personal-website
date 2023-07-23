@@ -5,13 +5,17 @@ import { targetElements, defaultProps } from "./data/scrollRevealConfig";
 import { footerYear } from "./footer";
 import { hero } from "./hero";
 import { about } from "./about";
+// import {project} from './project';
 
-initScrollReveal(targetElements, defaultProps);
 initTiltEffect();
-
+// project();
+initScrollReveal(targetElements, defaultProps);
 //adding Hero Detail
 hero();
 //adding About
 about();
 //Adding the recent year to the footage
 footerYear();
+//Generating Project
+
+
