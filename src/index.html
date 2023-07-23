@@ -24,6 +24,8 @@
 </head>
 
 <body>
+  <script defer type="module" src="index.js"></script>
+
   <div id="top"></div>
 
   <!-- **** Hero Section **** -->
@@ -119,8 +121,7 @@
   <!-- **** Projects Section **** -->
   <section id="projects">
     <div class="container">
-      <div class="project-wrapper">
-
+      <div class="project-wrapper" id="projectContainer">
         <h2 class="section-title dark-blue-text">Business Projects</h2>
 
         <!-- Notice: each .row is a project -->
@@ -264,8 +265,78 @@
         </div>
         <!-- /END Project -->
 
+        <h2 class="section-title dark-blue-text">Ongoing Fun Projects</h2>
 
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Cool Store</h3>
+              <div>
+                <p class="mb-4">
+                  [Working in Progress] An e-commerce React App that leverages the power of Firebase
+                  as its
+                  backend platform.
+                  The app offers a seamless shopping experience, where users can explore an extensive
+                  range of products and make purchases with ease.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://cool-store.heriyanto.dev/">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/HeriYantodotDev/cool-store">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://cool-store.heriyanto.dev/" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/cool-store.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
 
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Joke Factory</h3>
+              <div>
+                <p class="mb-4">
+                  [Working in Progress] A full-stack app (React + Node/Express) for users to share and read jokes.
+                  Users can submit their own jokes, review existing jokes, and leave comments.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://github.com/HeriYantodotDev/joke-factory">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/HeriYantodotDev/joke-factory">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="#" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/joke-factory.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
       </div>
     </div>
   </section>
@@ -319,7 +390,7 @@
   </footer>
   <!-- /END Footer Section -->
 
-  <script defer type="module" src="index.js"></script>
+
 </body>
 
 </html>
