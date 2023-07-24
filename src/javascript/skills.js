@@ -1,4 +1,4 @@
-skillsArray = [
+const skillsArray = [
   {
     skillURL : 'https://www.typescriptlang.org/', 
     imgURL: 'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg',
