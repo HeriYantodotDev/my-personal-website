@@ -1,21 +1,12 @@
 import initScrollReveal from "./scripts/scrollReveal";
 import initTiltEffect from "./scripts/tiltAnimation";
 import { targetElements, defaultProps } from "./data/scrollRevealConfig";
+import { compilation } from './javascript/compilation';
 
-import { footerYear } from "./footer";
-import { hero } from "./hero";
-import { about } from "./about";
-// import {project} from './project';
 
-initTiltEffect();
-// project();
+compilation() // Injecting HTML & Content
+
+// Running Animation << start >>
 initScrollReveal(targetElements, defaultProps);
-//adding Hero Detail
-hero();
-//adding About
-about();
-//Adding the recent year to the footage
-footerYear();
-//Generating Project
-
-
+initTiltEffect();
+// Running Animation << end >>
